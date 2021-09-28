@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Movies.ViewModels/1.0.0": {
+        "runtime": {
+          "Movies.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Movies.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

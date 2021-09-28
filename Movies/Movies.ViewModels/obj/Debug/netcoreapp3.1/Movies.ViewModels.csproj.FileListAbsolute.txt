@@ -1,0 +1,10 @@
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/bin/Debug/netcoreapp3.1/Movies.ViewModels.deps.json
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/bin/Debug/netcoreapp3.1/Movies.ViewModels.dll
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/bin/Debug/netcoreapp3.1/Movies.ViewModels.pdb
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.csproj.AssemblyReference.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.AssemblyInfoInputs.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.AssemblyInfo.cs
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.csproj.CoreCompileInputs.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.dll
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.ViewModels/obj/Debug/netcoreapp3.1/Movies.ViewModels.pdb

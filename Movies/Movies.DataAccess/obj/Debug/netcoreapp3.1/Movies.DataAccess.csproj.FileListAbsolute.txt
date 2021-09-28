@@ -1,0 +1,13 @@
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/bin/Debug/netcoreapp3.1/Movies.DataAccess.deps.json
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/bin/Debug/netcoreapp3.1/Movies.DataAccess.dll
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/bin/Debug/netcoreapp3.1/Movies.DataAccess.pdb
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/bin/Debug/netcoreapp3.1/Movies.Domain.dll
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/bin/Debug/netcoreapp3.1/Movies.Domain.pdb
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.csproj.AssemblyReference.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.AssemblyInfoInputs.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.AssemblyInfo.cs
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.csproj.CoreCompileInputs.cache
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.csproj.CopyComplete
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.dll
+/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/Debug/netcoreapp3.1/Movies.DataAccess.pdb
