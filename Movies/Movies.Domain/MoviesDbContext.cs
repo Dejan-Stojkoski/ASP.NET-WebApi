@@ -36,7 +36,7 @@ namespace Movies.Domain
                         Id = 1,
                         FullName = "Jon Jonsky",
                         Password = "jonjon",
-                        Subscription = 1,
+                        FavouriteGenre = 1,
                         Username = "jonS",
                     },
                     new User
@@ -44,7 +44,7 @@ namespace Movies.Domain
                         Id = 2,
                         FullName = "Jill Jillsky",
                         Password = "jilljill",
-                        Subscription = 2,
+                        FavouriteGenre = 2,
                         Username = "jillJ"
                     },
                     new User
@@ -52,7 +52,7 @@ namespace Movies.Domain
                         Id = 3,
                         FullName = "Greg Gregsky",
                         Password = "greggreg",
-                        Subscription = 1,
+                        FavouriteGenre = 1,
                         Username = "gregG"
                     }
                 );

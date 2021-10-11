@@ -4956,7 +4956,7 @@
       "outputPath": "/Users/dejan/Desktop/AKADEMIJA/WebAPI/Movies/Movies.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dejan/.config/NuGet/NuGet.Config"
+        "/Users/dejan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

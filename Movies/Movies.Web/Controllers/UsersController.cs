@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Movies.Services.Interfaces;
 using Movies.Services.Mapper;
@@ -10,6 +11,7 @@ namespace Movies.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -17,6 +19,38 @@ namespace Movies.Web.Controllers
         public UsersController(IUserService userService)
         {
             _userService = userService;
+        }
+
+        [HttpPost("authenticate")]
+        [AllowAnonymous]
+        public IActionResult Authenticate([FromBody] LoginViewModel login)
+        {
+            try
+            {
+                var user = _userService.Authenticate(login.Username, login.Password);
+                if(user != null)
+                {
+                    return Ok((AuthenticatedUserViewModel)GenericMapper.MapObject(user, new AuthenticatedUserViewModel()));
+                }
+
+                return NotFound("User does not exist!");
+            }
+            catch
+            {
+                return BadRequest("Username or password is incorrect!");
+            }
+        }
+
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public ActionResult RegisterUser(RegisterUserViewModel user)
+        {
+            if (_userService.Register((RegisterUserDto)GenericMapper.MapObject(user, new RegisterUserDto())))
+            {
+                return Ok($"User added successfully!");
+            }
+
+            return BadRequest($"Invalid format or content missing!");
         }
 
         [HttpGet("allUsers")]
@@ -29,17 +63,6 @@ namespace Movies.Web.Controllers
             }
 
             return Ok(users.Select(x => (UserViewModel)GenericMapper.MapObject(x, new UserViewModel())));
-        }
-
-        [HttpPost("addUser")]
-        public ActionResult AddUser(UserAddViewModel user)
-        {
-            if (_userService.AddUser((UserAddDto)GenericMapper.MapObject(user, new UserAddDto())))
-            {
-                return Ok($"User added successfully!");
-            }
-
-            return BadRequest($"Invalid format or content missing!");
         }
 
         [HttpGet("user/{id:int}")]
@@ -91,6 +114,17 @@ namespace Movies.Web.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpDelete("deleteUser/{id:int}")]
+        public ActionResult DeleteUser(int id)
+        {
+            if (_userService.DeleteUser(id))
+            {
+                return Ok($"User with ID: {id} deleted!");
+            }
+
+            return NotFound();
         }
     }
 }

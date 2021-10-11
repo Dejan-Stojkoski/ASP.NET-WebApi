@@ -31,7 +31,7 @@ namespace Movies.Domain.Migrations
                     FullName = table.Column<string>(nullable: true),
                     Username = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
-                    Subscription = table.Column<int>(nullable: true)
+                    FavouriteGenre = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -96,12 +96,12 @@ namespace Movies.Domain.Migrations
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "FullName", "Password", "Subscription", "Username" },
+                columns: new[] { "Id", "FavouriteGenre", "FullName", "Password", "Username" },
                 values: new object[,]
                 {
-                    { 1, "Jon Jonsky", "jonjon", 1, "jonS" },
-                    { 2, "Jill Jillsky", "jilljill", 2, "jillJ" },
-                    { 3, "Greg Gregsky", "greggreg", 1, "gregG" }
+                    { 1, 1, "Jon Jonsky", "jonjon", "jonS" },
+                    { 2, 2, "Jill Jillsky", "jilljill", "jillJ" },
+                    { 3, 1, "Greg Gregsky", "greggreg", "gregG" }
                 });
 
             migrationBuilder.InsertData(

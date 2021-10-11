@@ -47,7 +47,7 @@ namespace Movies.DataAccess.Repositories.EntityRepositories
                 user.FullName = entity.FullName;
                 user.Username = entity.Username;
                 user.Password = entity.Password;
-                user.Subscription = entity.Subscription;
+                user.FavouriteGenre = entity.FavouriteGenre;
                 _db.SaveChanges();
             }
         }

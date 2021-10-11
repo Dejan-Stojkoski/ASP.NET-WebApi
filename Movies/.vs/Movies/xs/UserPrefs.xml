@@ -3,7 +3,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Movies" expanded="True" selected="True" />
+          <Node name="Movies" expanded="True" />
         </State>
       </Pad>
     </Pads>
